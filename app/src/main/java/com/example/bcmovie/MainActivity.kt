@@ -23,12 +23,24 @@ class MainActivity : AppCompatActivity() {
         dataList.add(
             FilmModel(
                 "1",
-               "Naruto",
-                "Ini adalah film naruto",
-                 "Action",
-                 R.color.colorAccent,
+               "Ad Astra",
+                "The near future, a time when both hope and hardships drive humanity to look to the stars and beyond.",
+                 "Drama",
+                 R.drawable.ic_ad_astra,
                  0,
-                 0.0F
+                 61.0F
+            )
+        )
+
+        dataList.add(
+            FilmModel(
+                "2",
+                "Avengers",
+                "The further adventures of the Marvel Universe's mightiest general membership superhero team.",
+                "Action & Adventure",
+                R.drawable.ic_avengers,
+                0,
+                61.0F
             )
         )
 
